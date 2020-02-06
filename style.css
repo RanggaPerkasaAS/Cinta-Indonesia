@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+[class*="col-"]{
+    padding:15px;float:left; width: 100%; 
+}
+@media only screen and (min-width: 600px){
+    /*for tablets*/
+    .col-s-1 {width:8.33%;}
+    .col-s-2 {width:16.66%;}
+    .col-s-3 {width:25%;}
+    .col-s-4 {width:33.33%;}
+    .col-s-5 {width:41.66;}
+    .col-s-6 {width:50%;}
+    .col-s-7 {width:58.33%;}
+    .col-s-8 {width:66.66%;}
+    .col-s-9 {width:75%;}
+    .col-s-10 {width:83.33%;}
+    .col-s-11 {width:91.66%;}
+    .col-s-12 {width:100%;}
+}
+@media only screen and (min-width: 768px){
+    /*for detskop*/
+    .col-s-1 {width:8.33%;}
+    .col-s-2 {width:16.66%;}
+    .col-s-3 {width:25%;}
+    .col-s-4 {width:33.33%;}
+    .col-s-5 {width:41.66;}
+    .col-s-6 {width:50%;}
+    .col-s-7 {width:58.33%;}
+    .col-s-8 {width:66.66%;}
+    .col-s-9 {width:75%;}
+    .col-s-10 {width:83.33%;}
+    .col-s-11 {width:91.66%;}
+    .col-s-12 {width:100%;}
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Pantai-Pathok-Gebang-Tulungagung.jpg")  ;
+    background-size: cover;
+    height:100vh ;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: left;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:aliceblue ;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #f8f3e6;
+}
+.content{
+    color:black;
+    margin: auto;
+    font-size: 17px;
+}
+
+.image{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 20px double darkgoldenrod; 
+}
+.container{
+    background-size:cover ;
+    background-position: center;
+}
+.box{
+    text-align: center;
+}
+.border{
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.footer{
+    background : blue;
+    color: #fff;
+}
